@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_footer']  = '<a href="http://www.opencart.com">OpenCart</a> &copy; 2009-' . date('Y') . ' All Rights Reserved.';
-$_['text_version'] = 'Version %s';
+$_['text_footer']  = '技术支持' . date('Y') . '版权所有';
+$_['text_version'] = '版本 2019-09-10';
