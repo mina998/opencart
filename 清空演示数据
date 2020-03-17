@@ -1,0 +1,81 @@
+# 文章
+;truncate oc_information
+;truncate oc_information_description
+;truncate oc_information_to_store
+
+# 分类表
+;truncate oc_category
+;truncate oc_category_description
+;truncate oc_category_path
+;truncate oc_category_to_store ###
+
+# 商品表
+;truncate oc_product
+;truncate oc_product_attribute
+;truncate oc_product_description
+;truncate oc_product_discount
+;truncate oc_product_filter
+;truncate oc_product_image
+;truncate oc_product_option
+;truncate oc_product_option_value
+;truncate oc_product_recurring
+;truncate oc_product_related
+;truncate oc_product_reward
+;truncate oc_product_special
+;truncate oc_product_to_category
+;truncate oc_product_to_download
+;truncate oc_product_to_layout
+;truncate oc_product_to_store
+
+# 属性
+;truncate oc_attribute
+;truncate oc_attribute_description
+;truncate oc_attribute_group
+;truncate oc_attribute_group_description
+
+# 选项
+;truncate oc_option
+;truncate oc_option_description
+;truncate oc_option_value
+;truncate oc_option_value_description
+
+# 品牌 制造商
+;truncate oc_manufacturer
+;truncate oc_manufacturer_to_store
+
+# 模组
+;truncate oc_module
+
+# 区域群组
+;truncate oc_geo_zone #地区分组 添加税率时选择分组
+
+# 税率类别
+;truncate oc_tax_class #商品上架时选择
+
+# 代金卷
+;truncate oc_voucher_theme_description
+;truncate oc_voucher_theme
+
+# 税率
+;truncate oc_tax_rate
+;truncate oc_tax_rate_to_customer_group
+;truncate oc_tax_rule
+
+# Seo Url 清空此表 需从新修改文章seo url
+;truncate oc_seo_url
+
+# Banner
+;truncate oc_banner
+;truncate oc_banner_image
+
+# Coupon
+;truncate oc_coupon
+
+;INSERT INTO `oc_coupon` VALUES (0,'-10% Discount', '2222', 'P', 10.0000, 0, 0, 0.0000, '2014-01-01', '2020-01-01', 10, '10', 0, '2009-01-27 13:55:03')
+;INSERT INTO `oc_coupon` VALUES (0,'Free Shipping', '3333', 'P', 0.0000, 0, 1, 100.0000, '2014-01-01', '2014-02-01', 10, '10', 0, '2009-03-14 21:13:53')
+;INSERT INTO `oc_coupon` VALUES (0,'-10.00 Discount', '1111', 'F', 10.0000, 0, 0, 10.0000, '2014-01-01', '2020-01-01', 100000, '10000', 0, '2009-03-14 21:15:18')
+
+
+选择删除演示图片
+此目录下文件可以选择删除
+/image/

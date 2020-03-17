@@ -1,15 +1,7 @@
 # Opencart 3.0.3.2 二次开发
 
-/////////////////////////////////
-///       OpenCart V2.x     ///
-///    Install Instructions   ///
-///  http://www.opencart.com  ///
-/////////////////////////////////
-
-
 NOTE: THIS IS FOR NEW INSTALL ONLY!
 IF UPGRADING YOUR EXISTING CART, BE SURE TO READ THE UPGRADE.TXT FILE INSTEAD
-
 
 -------
 INSTALL
